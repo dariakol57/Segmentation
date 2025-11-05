@@ -1,0 +1,117 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# ==============================
+# Jupyter & IPython
+# ==============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_save
+*.ipynb~*
+*.ipynb.bak
+
+# ==============================
+# Virtual environments
+# ==============================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+*.env
+*.venv
+/.envrc
+/.python-version
+
+# ==============================
+# Data & model artifacts
+# ==============================
+/data/
+/datasets/
+/input/
+/outputs/
+/models/
+/checkpoints/
+/logs/
+/runs/
+/weights/
+/wandb/
+/tmp/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.npz
+*.npy
+*.csv
+*.zip
+*.tar
+*.tar.gz
+
+# ==============================
+# System files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Kaggle & Colab specifics
+# ==============================
+/kaggle/
+/kaggle/working/
+/kaggle/temp/
+/kaggle/input/
+/kaggle/output/
+/kaggle/outputs/
+/kaggle_simulation/
+/colab/
+/drive/MyDrive/
+
+# ==============================
+# Logs & Reports
+# ==============================
+*.log
+*.txt
+*.md.html
+*.pdf
+*.out
+*.err
+*.bak
+
+# ==============================
+# Cache directories
+# ==============================
+.cache/
+__pycache__/
+*.cache/
+*.temp/
+*.tmp/
+*.pkl
+*.pickle
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==============================
+# Other
+# ==============================
+!README.md
+!requirements.txt
+!.gitignore
